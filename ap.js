@@ -284,18 +284,19 @@ footer: footer_nya,
 mentions:[global.author, sender]})
 }
 break
-case 'nksn':{
 let buttonnks = [
   { buttonId: `${prefix} transfer`, buttonText: { displayText: 'BELI🛒' }, type: 2 }
   ]
   await ap.sendButtonText(ardian.chat, buttonnks, `SILAHKAN PILIH NOKOS YG MAU DI BELI
 
-WHATSAPP (sms)  Rp 2.600
-WHATSAPP (telpon)  Rp 1.600
-TELEGRAM Rp 2.000
-DANA Rp 500
+INDONESIA
+SINGAPORE
+USA
+MALAYSIA
+RUSSIA
 DLL
-)
+
+SILAHKAN PILIH ANGKA BERDASARKAN NOKOS YG KALIAN MAU`, `${global.author}`, 𝙵𝚎𝚕𝚒𝚌𝚒𝚊)
   }
   break
 case 'allmenu':{
