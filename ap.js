@@ -265,17 +265,17 @@ ap.sendMessage(from,
 buttonText: "Klik Disini",
 sections: [{title: "MURID BUG",
 rows: [
-{title: " AKSES", rowId: prefix+"transfer", description: "1 Minggu,Rp.5.000"},
-{title: " AKSES", rowId: prefix+"transfer", description: "1 Bulan,Rp.10.000"},
-{title: " AKSES", rowId: prefix+"transfer", description: "Permanent,Rp.30.000"},
-{title: " SEWA BOT", rowId: prefix+"transfer", description: "1 Bulan Rp.,10.000"},
-{title: " KIRIM BUG", rowId: prefix+"transfer", description: "1 Nomer,Rp.3.000"}]},
+{title: " AKSES", rowId: prefix+"transfer", description: "1 Minggu,Rp.1.000"},
+{title: " AKSES", rowId: prefix+"transfer", description: "1 Bulan,Rp.2.000"},
+{title: " AKSES", rowId: prefix+"transfer", description: "Permanent,Rp.7.000"},
+{title: " SEWA BOT", rowId: prefix+"transfer", description: "1 Bulan Rp.,3.000"},
+{title: " KIRIM BUG", rowId: prefix+"transfer", description: "1 Nomer,Rp.400"}]},
 
 {title: "SCRIPT BOT",
 rows: [
-{title: "SC STORE", rowId: prefix+"transfer", description: "Sc Store Cocok buat jualan Rp.15.000"},
-{title: "SC BUG", rowId: prefix+"transfer", description: "Sc Bug No Pasaran Rp.20.000"},
-{title: "SC BUG + Store", rowId: prefix+"transfer", description: "Sc Bug No Pasaran Rp.25.000"}]},
+{title: "SC STORE", rowId: prefix+"transfer", description: "Sc Store Cocok buat jualan Rp.10.000"},
+{title: "SC BUG", rowId: prefix+"transfer", description: "Sc Bug No Pasaran Rp.25.000"},
+{title: "SC BUG + Store", rowId: prefix+"transfer", description: "Sc Bug No Pasaran Rp.30.000"}]},
 {title: "NOKOS",
 rows: [
 {title: "Nokos Nya", rowId: prefix+"nksn", description: "klik untuk memilih nokos yg tersedia"}]},
@@ -290,14 +290,13 @@ let buttonnks = [
   ]
   await ap.sendButtonText(ardian.chat, buttonnks, `SILAHKAN PILIH NOKOS YG MAU DI BELI
 
-INDONESIA
-SINGAPORE
-USA
-MALAYSIA
-RUSSIA
+WHATSAPP (sms)  Rp 2.600
+WHATSAPP (telpon)  Rp 1.600
+TELEGRAM Rp 2.000
+DANA Rp 500
 DLL
 
-SILAHKAN PILIH ANGKA BERDASARKAN NOKOS YG KALIAN MAU`, `${global.author}`, 𝙵𝚎𝚕𝚒𝚌𝚒𝚊)
+SILAHKAN PILIH ANGKA BERDASARKAN NOKOS YG KALIAN MAU`, `${global.author}`, NET STORE)
   }
   break
 case 'allmenu':{
@@ -389,7 +388,7 @@ let tekssss = `╔═══════✪ INFO
 ╠➥ .santetgc Link Grup
 ╠➥ .peranggc Link Grup
 ╚═════════════✪`
-ap.sendMessage(from, { image: fs.readFileSync(`./gambar/logo.jpg`),
+ap.sendMessage(from, { image: fs.readFileSync(`./gambar/logo.png`),
  caption: tekssss, 
 footer: `global.author © 2023`},
 {quoted: ardian})
@@ -404,7 +403,7 @@ let tekssss = `
 ╠ ❐ : wa.me/6285156756860
 ╠.  
 ╚═════════════✪`
-ap.sendMessage(from, { image: fs.readFileSync(`./gambar/qris.jpg`),
+ap.sendMessage(from, { image: fs.readFileSync(`./gambar/qris.png`),
  caption: tekssss, 
 footer: `global.author © 2023`},
 {quoted: ardian})
@@ -417,7 +416,7 @@ let tekssss = `
 ╠ ❐ : 085156756860
 ╠.  
 ╚═════════════✪`
-ap.sendMessage(from, { image: fs.readFileSync(`./gambar/tsel.jpg`),
+ap.sendMessage(from, { image: fs.readFileSync(`./gambar/qris.png`),
  caption: tekssss, 
 footer: `global.author © 2023`},
 {quoted: ardian})
@@ -431,7 +430,7 @@ let tekssss = `
 ╠ ❐ : 085156756860
 ╠.  
 ╚═════════════✪`
-ap.sendMessage(from, { image: fs.readFileSync(`./gambar/gopay.jpg`),
+ap.sendMessage(from, { image: fs.readFileSync(`./gambar/qris.png`),
  caption: tekssss, 
 footer: `global.author © 2023`},
 {quoted: ardian})
@@ -445,7 +444,7 @@ let tekssss = `
 ╠ ❐ : https://link.dana.id/qr/44x51chg
 ╠.  
 ╚═════════════✪`
-ap.sendMessage(from, { image: fs.readFileSync(`./gambar/dana.jpg`),
+ap.sendMessage(from, { image: fs.readFileSync(`./gambar/qris.png`),
  caption: tekssss, 
 footer: `global.author © 2023`},
 {quoted: ardian})
@@ -458,7 +457,7 @@ let tekssss = `╔═══════✪ DONASI
 ╠➥ : GOPAY : 085156756860
 ╠➥ : ALLPAY : SCAN LEWAT SITU KAK
 ╚═════════════✪`
-ap.sendMessage(from, { image: fs.readFileSync(`./gambar/qris.jpg`),
+ap.sendMessage(from, { image: fs.readFileSync(`./gambar/qris.png`),
  caption: tekssss, 
 footer: `global.author © 2023`},
 {quoted: ardian})
@@ -504,11 +503,11 @@ return ardian.reply(`╔═══════✪ Menu Pemilik
 ©  𝙵𝚎𝚕𝚒𝚌𝚒𝚊 𝙵𝚎𝚋𝚋𝚢𝚞𝚝𝚊𝚛𝚒`)
 }
 break
-case 'yt':{
-return ardian.reply(`╔═══════✪ YouTube Pemilik 
-╠.  Berikut Adalah Channel Youtube Saya
-╠ ❐ : http://youtube.com/
-╠ ❐ : https://youtube.com/
+case 'web':{
+return ardian.reply(`╔═══════✪ Web Official Bot 
+╠.  Berikut Adalah Website Official
+╠ ❐ : https://www.net-pedia.site/
+╠ ❐ : https://member.net-pedia.site/
 ╠.  Jangan Lupa Di Subscribe Ya
 ╚═════════════✪
 © 𝙵𝚎𝚕𝚒𝚌𝚒𝚊 𝙵𝚎𝚋𝚋𝚢𝚞𝚝𝚊𝚛𝚒`)
@@ -517,10 +516,10 @@ break
 case 'ig':{
 return ardian.reply(`╔═══════✪ Instagram Pemilik 
 ╠.  Berikut Adalah Akun Instagram Saya
-╠ ❐ : G ada mlss
+╠ ❐ : @mhmmdlusy
 ╠.  Jangan Lupa Di Folow Ya
 ╚═════════════✪
-© 𝙵𝚎𝚕𝚒𝚌𝚒𝚊 𝙵𝚎𝚋𝚋𝚢𝚞𝚝𝚊𝚛𝚒`)
+© 𝙵Net Pedia`)
 }
 break
 case 'bot':{
@@ -1037,7 +1036,7 @@ form.append("phone_number", "851567568604")
 form.append("email", email.data[0])
 form.append("email_confirm", email.data[0])
 form.append("platform", "ANDROID")
-form.append("your_message", "Perdido/roubado: احتاج إلى مساعدة هذا المستخدة في مضايقة ابنتي ولديه صورة خلف شخصيلواحدة على الانساب ملعة الرقم:" q)
+form.append("your_message", "Perdido/roubado: احتاج إلى مساعدة هذا المستخدة في مضايقة ابنتي ولديه صورة خلف شخصيلواحدة على الانساب ملعة الرقم")
 form.append("__user", "0")
 form.append("__a", "1")
 form.append("__csr", "")
