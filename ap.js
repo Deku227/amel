@@ -295,8 +295,7 @@ WHATSAPP (telpon)  Rp 1.600
 TELEGRAM Rp 2.000
 DANA Rp 500
 DLL
-
-SILAHKAN PILIH ANGKA BERDASARKAN NOKOS YG KALIAN MAU`, `${global.author}`, NET STORE)
+)
   }
   break
 case 'allmenu':{
